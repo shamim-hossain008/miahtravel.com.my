@@ -13,6 +13,8 @@
   height: 50px;
   padding-bottom: 10px;
   position: sticky;
+  left: 0px;
+  top: 0px;
   z-index: auto;
 }
 .nav-title {
@@ -41,18 +43,15 @@ span {
   font-weight: 400;
 }
 .banner {
-  background-image: url("../miahtravel.com.my/Images/Group13.png");
-  /* background-position: center;*/
-  background-color: rgba(0, 0, 255, 0.458);
+  background-image: url("./Images/Group13.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .banner-content {
-  height: 200px;
-  justify-content: center;
-  text-align: center;
-  padding-top: 300px;
-  margin: 0px 130px 50px 130px;
-  line-height: 50px;
-  padding-bottom: 80px;
+  width: 750px;
+  margin: auto;
+  height: 435px;
+  padding-top: 250px;
 }
 .banner-title {
   color: #fff;
@@ -67,6 +66,13 @@ button {
   font-size: 18px;
   border-radius: 10px;
   text-align: center;
+}
+.banner-description {
+  color: #ffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
 .btn-primary {
   background-color: #fe519a;
@@ -94,4 +100,25 @@ lu {
   color: #131318;
   font-size: 50px;
   font-weight: 800;
+}
+.text-description {
+  color: #5a5a5d;
+  font-size: 15px;
+  font-weight: 400;
+}
+/* footer styles */
+
+footer {
+  background-color: #ffe4c4;
+  height: 200px;
+  text-align: center;
+  padding: 130px 190px 80px 150px;
+  line-height: 40px;
+  margin-top: 15px;
+}
+.icon-container,
+i {
+  padding-bottom: 10px;
+  gap: 10px;
+  font-size: 25px;
 }
