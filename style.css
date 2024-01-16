@@ -5,17 +5,20 @@
   padding: 0%;
   font-family: "Mulish", sans-serif;
 }
+.nav-main {
+  padding: 10px 10px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 50;
+}
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: bisque;
   height: 50px;
-  padding-bottom: 10px;
-  position: sticky;
-  left: 0px;
-  top: 0px;
-  z-index: auto;
 }
 .nav-title {
   font-size: 35px;
@@ -138,6 +141,39 @@ lu {
   justify-content: space-around;
   align-items: center;
   margin: 50px 70px;
+}
+.info-head {
+  text-align: center;
+  line-height: 40px;
+}
+.info-main {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  justify-content: center;
+  gap: 40px;
+}
+.info-1,
+.info-2,
+.info-3 {
+  border: 1px solid #ff5400;
+  border-radius: 10px;
+  width: 400px;
+  height: 5px;
+  padding: 100px 50px 100px 50px;
+}
+.info-1 {
+  background-color: #fffbf7;
+}
+.info-2 {
+  background-color: #f3fdff;
+}
+.world-col {
+  display: flex;
+  justify-content: center;
+}
+.info-3 {
+  background-color: #fef6f6;
 }
 .news-latter {
   text-align: center;
