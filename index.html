@@ -4,22 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel the World</title>
-
+    <script src="https://kit.fontawesome.com/5373aaa1f2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- header section start -->
     <header>
-      <nav>
-        <h2 class="nav-title">FLY <span> WITH MW </span></h2>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Packages</a></li>
-          <li><a href="">Testimonial</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
+      <nav class="nav-container">
+        <div>
+          <h2 class="nav-title">FLY <span> WITH MW </span></h2>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li>
+              <a href="#"> <span>Home</span></a>
+            </li>
+            <li><a href="">Packages</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
       </nav>
+      <!-- nav-bar end -->
+      <!-- banner section start -->
       <div class="banner">
         <div class="banner-content">
           <h3 class="baner-title">Explore Your Travel</h3>
@@ -31,11 +39,38 @@
             wanderer, preparing for travel is an essential step to make the most
             out of your journey.
           </p>
+          <div class="banner-input-container">
+            <input type="text" placeholder="Where go" > <a href=""></a></input>
+            <input type="text" placeholder="When "><a href=""></a></input>
+            <input type="text" placeholder="Select Type"> <a href=""></a></input>
+            <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
+    
+          </div>
         </div>
       </div>
     </header>
     <!-- main section start -->
-    <main></main>
+    <main>
+        <section class="info-section">
+            <div class="info-title">
+                <h2 >Our Popular Tours</h2>
+                <p class="info-description">
+                    If you’re ready to inspire what’s next for your tours, this is the perfect place to start. The itineraries in this travel collection are chosen time and time again—and it’s easy to see why. From tasting cultural cuisines to discovering hidden gems, these destinations always deliver.
+                </p>
+                <lu>
+                    <li>Uncover the secrets of bustling metropolises like New York, Paris, and Tokyo. Guided city tours highlighting iconic landmarks, cultural hotspots, and local gems.</li>
+                    <li>Escape to serene natural landscapes with tours to destinations like the Swiss Alps, Costa Rican rainforests, or the Australian Outback. Immerse yourself in nature's beauty and tranquility.</li>
+                    <li>Explore the historical wonders of civilizations past. Visit ancient ruins, archaeological sites, and UNESCO World Heritage landmarks to unravel the stories of our collective history.</li>
+                </lu>
+                <p class="info-description">Remember to tailor these tours based on your target audience and the theme or focus of your travel offerings. Each tour can be a unique experience, catering to different interests and preferences.</p>
+                <button class="btn-primary">Read More</button>
+            </div>
+            <div class="info-img">
+                <img src="Images/Rectangle 4.png" alt="#">
+            </div>
+
+        </section>
+    </main>
     <!-- footer section start -->
     <footer></footer>
   </body>
